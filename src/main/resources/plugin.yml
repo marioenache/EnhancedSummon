@@ -1,0 +1,13 @@
+name: EnhancedSummon
+version: ${project.version}
+main: ro.marioenache.enhancedsummon.EnhancedSummonPlugin
+api-version: 1.20
+author: Mario Enache
+website: https://marioenache.ro
+description: Enhances the summon command with world location support and JSON arguments
+commands:
+  esummon:
+    description: Enhanced summon command with world location support and JSON arguments
+    usage: /esummon <entity> [world] [x] [y] [z] [json]
+    permission: enhancedsummon.use
+    permission-message: You don't have permission to use this command.
